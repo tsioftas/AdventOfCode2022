@@ -1,3 +1,6 @@
+#ifndef COMMONS7_H
+#define COMMONS7_H
+
 #include <fstream>
 #include <iostream>
 #include <vector>
@@ -49,3 +52,5 @@ bool isnum(char c);
 filesystem_node* parse_ls_line(string s, directory* cwd);
 
 directory* read_input();
+
+#endif // COMMONS7H
